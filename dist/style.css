@@ -1,0 +1,82 @@
+body {
+  font-family: Arial;
+  font-size: 12pt;
+}
+button:focus {outline:0;}
+
+
+html, body, #main, #map, #map-parent {
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+#search {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    width: 320px;
+}
+
+#search > * {
+  width: 100%;
+  box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.3);
+}
+
+input, select {
+  padding: 12px;
+  border: none;
+}
+
+#search > div {
+  margin-bottom: 4px;
+}
+
+#search > div > input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#profile-chooser {
+  width: 240px;
+  box-sizing: border-box;
+}
+
+#route-information {
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.selected {
+  border: 1px solid #adf;
+}
+
+#search > div > button {
+  width: 40px;
+  height: 41px;
+  background-color: #ddd;
+  border: none;
+}
+
+#search > div > button:hover {
+  background-color: #ccc;
+}
+
+.suggestion {
+  background-color: #fff;
+  padding: 10px;
+  color: #555;
+  font-size: 10pt;
+  border-top: 1px solid #eee;
+}
+
+.suggestion:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
